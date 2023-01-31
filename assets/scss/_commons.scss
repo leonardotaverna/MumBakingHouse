@@ -1,0 +1,23 @@
+$color-fuente: #8a4358;
+$color-fondo:(
+    header:#ffd7e1,
+    body:#faeee7,
+    titulos:#fffffe,
+);
+$hover-nav: #ff8ba7;
+$h2-height:10vh;
+$h2-fontsize:4vh;
+  
+*{
+    margin:0 1px;
+    padding: 0 1px;
+}
+.titulo{
+    h2{
+        height:$h2-height;
+        font-size:$h2-fontsize;
+        margin: 15px 0 5px 0;   
+        background-color: #fffffe; 
+        padding-top: 15px;
+    }
+}

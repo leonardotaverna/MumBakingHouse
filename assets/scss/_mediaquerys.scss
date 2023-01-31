@@ -1,0 +1,156 @@
+@media screen and (min-width: 768px) {
+
+    /* General */
+    /* Header */
+    header{
+        width: 100%;
+        .navbar{
+            width: 100%;
+            .container-fluid{
+                justify-content: left;
+                width: 100%;
+            }
+        }        
+    }
+
+    #Nos_recomiendan {
+        #video{
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 100vh; 
+            #video--recomiendan1{
+                height: auto;
+                width:100%;
+                iframe{
+                    height: 65%;
+                }
+            }
+            #video--recomiendan2{
+                height: auto;
+                width:100%;
+                iframe{
+                    height: 65%;
+                }
+            }
+        }
+    }
+    
+    /* nosotros.html */
+    #quienes_somos--foto{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 90%;
+        .foto_quienes{
+            width: 50%;
+            transform: none;
+        }
+        .quienes_somos--foto--p{
+            width: 100%;
+            margin: auto;     
+        }
+    }
+
+
+    /* galeria.html */
+    .galeria__header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #redes__galeria{
+        width: auto;
+        flex-direction: row;
+        
+    }
+
+    .w3-row-padding{
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* contacto.html */
+    .contacto{
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        .navbar{
+            width: 100%;
+            .container-fluid{
+                justify-content: left;
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                h1{
+                    width: auto;
+                }
+                .redes{
+                    display:inline-block; 
+                    width:25%; 
+                    a{
+                        display:inline;
+                        height:auto;
+                        img{
+                            height: 4vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    /* index */
+    main{
+        .carousel{
+            .carousel-inner{
+                height:100%;
+                .carousel-item{
+                    height:100%;
+                    img{
+                        object-fit:cover;
+                        aspect-ratio:4/3;
+                    } 
+                }
+            }
+        }
+
+        #video{
+            display: flex;
+            width: auto;
+            height: 100vh;
+            #video--recomiendan1{
+                height: 70vh;
+                width: 50%;
+                padding: 10px;
+            }
+            #video--recomiendan2{
+                height: 70vh;
+                width: 50%;
+                padding: 10px;
+            }
+        }   
+    }
+    
+    /* nosotros */
+    #quienes_somos{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ustedes */
+    .ustedes{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
