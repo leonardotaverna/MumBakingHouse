@@ -55,6 +55,7 @@ header .navbar .container-fluid .logotipo .logo:hover {
 header .navbar .container-fluid .logotipo h1 {
   color: #8a4358;
   align-self: center;
+  font-size: 1.3rem;
 }
 header .navbar .container-fluid .navbar-collapse {
   background-color: #ffd7e1;
