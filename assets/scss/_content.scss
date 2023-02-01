@@ -25,8 +25,7 @@
         font-size: 18px;
         font-weight: bold;
         position: relative;
-        border-radius: 10px 100px / 120px;
-        
+        border-radius: c.$border-tarjetas;
     }
     button::before{
         content: "";
@@ -68,7 +67,7 @@ main{
         padding-top:20px;
         height: auto;
         .carousel-inner{
-            border-radius: 10px 100px / 120px;
+            border-radius: c.$border-tarjetas;
             height: auto;
             .carousel-item{
                 img{

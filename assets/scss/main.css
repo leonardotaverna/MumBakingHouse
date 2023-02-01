@@ -36,6 +36,7 @@ header .navbar .container-fluid {
   padding: 0;
   gap: 1px;
   background-color: #ffd7e1;
+  border-radius: 10px 100px/120px;
 }
 header .navbar .container-fluid .logotipo {
   display: flex;
