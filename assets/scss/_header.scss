@@ -40,11 +40,13 @@ header{
                     color:c.$color-fuente;
                     align-self: center;
                     font-size: 1.3rem;
+                    font-family: alata, sans-serif;
                 }
             }
             
             .navbar-collapse{
                 background-color:map-get(c.$color-fondo,"header"); 
+                border-radius: c.$border-tarjetas;
                 .nav-item a{
                     color:c.$color-fuente;
                     text-align:left;

@@ -57,9 +57,11 @@ header .navbar .container-fluid .logotipo h1 {
   color: #8a4358;
   align-self: center;
   font-size: 1.3rem;
+  font-family: alata, sans-serif;
 }
 header .navbar .container-fluid .navbar-collapse {
   background-color: #ffd7e1;
+  border-radius: 10px 100px/120px;
 }
 header .navbar .container-fluid .navbar-collapse .nav-item a {
   color: #8a4358;
