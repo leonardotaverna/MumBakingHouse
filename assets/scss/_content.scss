@@ -11,6 +11,7 @@
 
 .boton-pedidos{
     text-align: right;
+    height:auto;
     position: -webkit-sticky;
     position: sticky;
     top: 45px;
@@ -40,7 +41,7 @@
             #ff8ba7, #68d678, #ffc6c7, #ff8ba7,#68d678, #ff8ba7, #ffc6c7,#ff8ba7
         );
         background-size: 800%;
-        border-radius: 10 px;
+        border-radius: c.$border-tarjetas;
         filter:blur(8px);
         animation: glowing 20s linear infinite;
     }
