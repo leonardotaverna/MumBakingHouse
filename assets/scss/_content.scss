@@ -12,9 +12,10 @@
 .boton-pedidos{
     text-align: right;
     height:auto;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 45px;
+    position: -webkit-fixed;
+    position: fixed;
+    bottom: 0;
+    right: 0;
     z-index: 1;
     button{
         margin-top:15px;

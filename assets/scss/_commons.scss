@@ -7,7 +7,7 @@ $color-fondo:(
 $hover-nav: #ff8ba7;
 $h2-height:10vh;
 $h2-fontsize:4vh;
-$border-tarjetas: 10px 100px / 120px;
+$border-tarjetas: 10px 100px/120px;
   
 *{
     margin:0 1px;
@@ -16,9 +16,11 @@ $border-tarjetas: 10px 100px / 120px;
 .titulo{
     h2{
         height:$h2-height;
+        font-family: alata, sans-serif;
         font-size:$h2-fontsize;
         margin: 15px 0 5px 0;   
         background-color: #fffffe; 
         padding-top: 15px;
+        border-radius: 100px/120px 10px;
     }
 }

@@ -7,10 +7,12 @@
 
 .titulo h2 {
   height: 10vh;
+  font-family: alata, sans-serif;
   font-size: 4vh;
   margin: 15px 0 5px 0;
   background-color: #fffffe;
   padding-top: 15px;
+  border-radius: 100px/120px 10px;
 }
 
 /* General */
@@ -150,9 +152,10 @@ header .galeria-header .navbar .container-fluid .redes {
 .boton-pedidos {
   text-align: right;
   height: auto;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 45px;
+  position: -webkit-fixed;
+  position: fixed;
+  bottom: 0;
+  right: 0;
   z-index: 1;
 }
 .boton-pedidos button {
