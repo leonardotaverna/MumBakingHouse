@@ -24,7 +24,7 @@
         cursor: pointer;
         border: none;
         color: #8a4358;
-        font-size: 18px;
+        font-size: .8rem;
         font-weight: bold;
         position: relative;
         border-radius: c.$border-tarjetas;
@@ -41,7 +41,7 @@
             45deg,
             #ff8ba7, #68d678, #ffc6c7, #ff8ba7,#68d678, #ff8ba7, #ffc6c7,#ff8ba7
         );
-        background-size: 800%;
+        background-size: 1500%;
         border-radius: c.$border-tarjetas;
         filter:blur(8px);
         animation: glowing 20s linear infinite;
